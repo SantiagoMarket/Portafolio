@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
     <title>Portafolio de Victor Santiago Cubillos Cruz</title>
     <style>
         /* Estilos generales */
@@ -9,8 +10,8 @@
             line-height: 1.6;
             margin: 20px;
             padding: 0;
-            background-color: #f4f4f4; /* Color de fondo para todo el cuerpo */
-            color: #333; /* Color del texto principal */
+            background-color: #289BC6; /* Color de fondo para todo el cuerpo */
+            color: #000000; /* Color del texto principal */
         }
         header {
             text-align: center;
@@ -28,13 +29,24 @@
         /* Estilos para secciones específicas */
         .about-me {
             background-color: #ffd700; /* Amarillo */
-            
+            padding: 250px;
         }
+       
+        
         .about-me img {
-            max-width: 250px; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
-            height: 250px; /* Asegura que la altura se ajuste proporcionalmente al ancho */
+            max-width: 300px; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+            height: 300px; /* Asegura que la altura se ajuste proporcionalmente al ancho */
             border-radius: 50%; /* Añade esquinas redondeadas */
+           
         }
+        .contenedor-imagen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            height: 300px; /* Altura del contenedor (ajusta según sea necesario) */
+        }
+        
         .experience {
             background-color: #00ff00; /* Verde */
         }
@@ -68,6 +80,8 @@
             margin-top: 40px;
             color: #666; /* Color del texto del pie de página */
         }
+
+        
     </style>
 </head>
 <body>
@@ -75,20 +89,25 @@
 
         <h1>Portafolio de Victor Santiago Cubillos Cruz</h1>
     </header>
-
+   
+       
     <!-- Sección "Sobre mí" con fondo amarillo -->
     <section class="about-me">
-        <img src="https://img.freepik.com/free-photo/corporate-management-strategy-solution-branding-concept_53876-167088.jpg?w=1380&t=st=1699670483~exp=1699671083~hmac=6ebfe67e98d5575e1c52a461ae56ea4b488d9e6e6ca8b41096a27de55ca58f1c" alt="Descripción de la imagen">
-        <h2>Sobre mí</h2>
-        <p>Soy un apasionado del marketing digital con experiencia en SEO, copywriting y generación de reconocimiento de marca.</p>
-        <a href="https://www.linkedin.com/in/victor-santiago-cubillos-cruz-b09860256/" target="_blank">Sígueme en LinkedIn</a>
-
+        
+        <div class="contenedor-imagen">
+          
+            <img src="https://media.licdn.com/dms/image/D4E03AQEDKpkbz7mSww/profile-displayphoto-shrink_800_800/0/1670859866082?e=1704931200&v=beta&t=xIFnUcV8Td7bzM02esCUVS02c1PdMJUs4nIM3M_k180" alt="Descripción de la imagen">
+            <h2>Sobre mí</h2>
+            <p>Marketero digital enfocado en branding y SEO. <br> Creo firmemente en la frase nunca pares de aprender.</be></p>
+            <a href="https://www.linkedin.com/in/victor-santiago-cubillos-cruz-b09860256/" target="_blank">Sígueme en LinkedIn</a>
+        </section>
+      
     </section>
 
     <!-- Sección "Experiencia" con fondo verde -->
     <section class="experience">
         <h2>Experiencia</h2>
-        <p>Tengo 2 años de experiencia en marketing digital, enfocado en estrategias de SEO y creación de contenido persuasivo.</p>
+        <p>Tengo 2 años de experiencia en marketing digital, enfocado en estrategias de branding y SEO y creación de contenido.</p>
     </section>
 
     <!-- Sección "Habilidades" con fondo azul real -->
@@ -111,7 +130,7 @@
     <!-- Sección "Contacto" con fondo naranja -->
     <section class="contact">
         <h2>Contacto</h2>
-        <p>Puedes contactarme a través de mi correo electrónico: <a href="sant4cubillos@outlook.com">sant4cubillos@outlook.com</a></p>
+        <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
     </section>
 
     <footer>
